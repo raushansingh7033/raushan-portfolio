@@ -36,7 +36,10 @@ const GitHubStats = () => {
               Contribution Activity
             </h3>
             <img
-              src={`https://github-readme-activity-graph.vercel.app/graph?username=${githubUsername}&theme=react-dark&hide_border=true`}
+              src="https://github-readme-stats.vercel.app/api?username=raushansingh7033&theme=react&hide_border=true"
+              onError={(e) => {
+                e.target.src = "/github-fallback.png";
+              }}
               alt="GitHub contribution graph"
               className="w-full"
               loading="lazy"
