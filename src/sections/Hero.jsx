@@ -139,7 +139,7 @@ const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="/resume.pdf"
+              href="/raushan-portfolio/Raushan_Singh_Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               className="flex items-center gap-2 border border-blue-600 text-blue-600 hover:bg-blue-50 dark:hover:bg-dark-700 px-6 py-3 rounded-lg font-medium transition"
